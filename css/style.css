@@ -6,5 +6,50 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:#000;
+    background:#b6b3b3;
+}
+
+input{
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 22px;
+}
+
+
+.num{
+    width: 64px;
+    height: 67px;
+}
+.text{
+    width: 160px;
+    height: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius:50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+}
+
+.main{
+  display: inline-block;
+}
+
+.maincolor{
+    background-color: #000;
+}
+
+.blue{
+    background-color: rgb(5, 77, 160);
+    border-radius: 50%;
 }
